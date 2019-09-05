@@ -15,7 +15,6 @@ new Vue({
   router: router,
   render: h => h(App),
   mounted() {
-    console.log('xxxx')
     document.dispatchEvent(new Event('render-event'))
   }
 })
