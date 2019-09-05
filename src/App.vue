@@ -184,7 +184,7 @@ export default {
 }
 
 .bottom a {
-  margin: -5px auto 0 auto;
+  margin: -4px auto 0 auto;
   font-size: 16px;
   font-weight: 400;
   color: #919191 !important;
@@ -207,6 +207,12 @@ export default {
     display: block;
     margin: 40px auto;
     width: 200px;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .bottom {
+    display: none;
   }
 }
 
