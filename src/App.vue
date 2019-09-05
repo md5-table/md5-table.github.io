@@ -179,7 +179,7 @@ export default {
 .bottom {
   position: absolute;
   top: calc(100vh - 60px);
-  left: calc(50% - 110px);
+  left: calc(50% - 100px);
   color: #919191;
 }
 
@@ -193,10 +193,15 @@ export default {
 @media screen and (max-width: 600px) {
   .banner {
     margin-top: 20px;
+    margin-bottom: 0px;
   }
 
   .logo {
     display: none;
+  }
+
+  .input-container {
+    margin-top: 40px;
   }
 
   .input {
