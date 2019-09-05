@@ -120,13 +120,14 @@ export default {
 }
 
 .input-container {
-  width: 600px;
+  max-width: 600px;
+  width: 96vw;
   margin: 100px auto 0 auto;
   text-align: center;
 }
 
 .input {
-  width: 400px;
+  width: 66%;
   display: inline-block;
 }
 
@@ -183,7 +184,30 @@ export default {
 }
 
 .bottom a {
-  margin-top: -5px;
+  margin: -5px auto 0 auto;
+  font-size: 16px;
+  font-weight: 400;
   color: #919191 !important;
 }
+
+@media screen and (max-width: 600px) {
+  .banner {
+    margin-top: 20px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .decrypt-button {
+    display: block;
+    margin: 40px auto;
+    width: 200px;
+  }
+}
+
 </style>
